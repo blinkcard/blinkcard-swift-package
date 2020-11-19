@@ -9,13 +9,13 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "BlinkCard",
-            targets: ["BlinkCard"]),
+            targets: ["Microblink"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "BlinkCard",
-            url: "https://github.com/blinkcard/blinkcard-ios/releases/download/v2.0.0/BlinkCard.xcframework.zip",
+            name: "Microblink",
+            url: "https://github.com/blinkcard/blinkcard-ios/releases/download/v1.2.0/Microblink.xcframework.zip",
             checksum: "")
     ]
 )
