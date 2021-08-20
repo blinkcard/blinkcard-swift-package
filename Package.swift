@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BlinkCard",
-            url: "https://github.com/blinkcard/blinkcard-ios/releases/download/v2.3.0/BlinkCard.xcframework.zip",
-            checksum: "46911791aef626cd134fe941ae75614eacc0c0fc67d6443f692f8fa95c70c670")
+            url: "https://github.com/blinkcard/blinkcard-ios/releases/download/v2.4.0/BlinkCard.xcframework.zip",
+            checksum: "45617f967aa7b60526b33fc0d5c6b208c2506aeff112c2514e5dfce5f87cb18f")
     ]
 )
